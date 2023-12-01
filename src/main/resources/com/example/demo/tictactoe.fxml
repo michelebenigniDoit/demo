@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.example.demo.tictactoe.TicTacToeController">
+    <Button text="" onAction="#handleButtonClick" fx:id="button00" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <Button text="" onAction="#handleButtonClick" fx:id="button01" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+    <Button text="" onAction="#handleButtonClick" fx:id="button02" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+
+    <Button text="" onAction="#handleButtonClick" fx:id="button10" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <Button text="" onAction="#handleButtonClick" fx:id="button11" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <Button text="" onAction="#handleButtonClick" fx:id="button12" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+
+    <Button text="" onAction="#handleButtonClick" fx:id="button20" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <Button text="" onAction="#handleButtonClick" fx:id="button21" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <Button text="" onAction="#handleButtonClick" fx:id="button22" GridPane.columnIndex="2" GridPane.rowIndex="2"/>
+</GridPane>
